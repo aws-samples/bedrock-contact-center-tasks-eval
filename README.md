@@ -52,3 +52,13 @@ You can view the results of the comparison of model summaries with respective gr
 ### Conclusion
 
 By following these steps, you can efficiently evaluate various foundation models on their ability to summarize contact center transcripts. This process provides a structured approach to understand model performance and helps in making informed decisions about deploying AI models in a contact center environment.
+
+### Security
+---- 
+
+See CONTRIBUTING for more information.
+
+### License
+---- 
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
