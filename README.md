@@ -1,6 +1,6 @@
 ## My Project
 
-TODO: Fill this README out!
+TODO: this repo is under construction and will be updated soon.
 
 Be sure to:
 
