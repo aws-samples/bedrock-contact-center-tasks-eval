@@ -1,0 +1,23 @@
+A: I wanted to have a broader discussion on responsible AI development principles. As we build more AI models, how do we ensure they are helpful, harmless, and aligned with human values?
+
+B: This is an important topic. We need to make ethical considerations a priority from the beginning of any AI project, not an afterthought. I think we should develop a review process focused on safety for all new models. 
+
+Action item: Draft a proposal for an AI model safety review framework 
+
+C: I agree. We should analyze potential risks like data bias and misuse upfront. Models also need to be secure - what if they were hacked?
+
+Action item: Outline additional potential safety risks to address such as data/algorithm bias and security
+
+A: Valid points. Besides analyzing risks, we also need to ensure the objectives we give AI align with human values more broadly. Like being helpful to users, not just maximizing some narrow metric. 
+
+Action item: Explore methodologies for value alignment in AI systems
+
+B: The objectives point connects to transparency too. Any AI decisions that impact users should be explainable. If we can't understand why an AI did something, we can't verify it's aligned.  
+
+Action item: Research existing XAI (explainable AI) techniques to augment our models
+
+C: Adding explainability makes sense. We should also discuss how to carefully test models before launch to catch additional issues. And have a plan to monitor their impacts over time.
+
+Action item: Develop testing and monitoring standards for AI models based on industry best practices
+
+A: Great suggestions all around. It seems like we have a blueprint to make responsibility, safety and ethics central to our AI efforts here. I'm optimistic if we build these considerations in from the start, we can drive real progress. Does anyone have any other thoughts before we break?

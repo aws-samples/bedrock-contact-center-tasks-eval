@@ -1,0 +1,16 @@
+Here are some action items for each speaker:
+
+A:
+- Lead a discussion on the requirements of the product recommendation model
+- Assess the optimal cloud instance type that can handle thousands of customers 
+- Take into account the type of model used for recommendation and its requirements 
+
+B:
+- Provide technical expertise on the pros and cons of different instance types without GPU support
+- Help assess the potential latency for non-GPU instances 
+
+C:
+-  Provide an assessment of the potential latency of different GPU instances 
+- Lead the discussion on the different types of GPU instances and attachments offered by cloud providers 
+
+Does this help outline some next steps?

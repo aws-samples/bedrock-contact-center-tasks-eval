@@ -1,0 +1,88 @@
+---
+# Name of the application
+app_name: contact-center-transcript-summarization
+
+aws:
+  region: <your-aws-account-region>
+  # only needed if the code in this repo is not running on AWS compute (for example on your laptop)
+  sagemaker_execution_role: <your-sagemaker-execution-role>
+
+# directory paths
+dir:
+  data: data
+  raw: data/raw
+  golden: data/raw/golden
+  prompts: data/prompts
+  models: data/models
+  metrics: data/metrics
+  completions: data/completions
+
+data:
+  raw_data_file: data.csv
+  golden_transcript: data/raw/golden/transcript.txt
+  golden_transcript_summary: data/raw/golden/summary.txt
+
+prompt:
+  very_large_prompt:
+    sleep_time: 180
+    threshold: 70000
+  normal_prompt:
+    sleep_time: 60
+
+max_retries: 3
+desired_word_count_for_summary: 80
+
+# bedrock FMs
+experiments:
+- name: single-line-reason
+  prompt_template:
+  reps: 3
+  model_list:
+  - model: anthropic.claude-instant-v1
+    prompt_template: anthropic_template_single_line_reason.txt
+  - model: amazon.titan-text-express-v1
+    prompt_template: titan_template.txt
+  - model: cohere.command-text-v14
+    prompt_template: cohere_template.txt
+
+
+bedrock_models:
+  cohere.command-text-v14:
+    context_length: 4000
+    prompt_token_pricing_per_million: 1.5
+    completion_token_pricing_per_million: 2.0
+    inference_param_set: cohere
+  amazon.titan-text-express-v1:
+    context_length: 8000
+    prompt_token_pricing_per_million: 0.8
+    completion_token_pricing_per_million: 1.6
+    inference_param_set: titan
+  anthropic.claude-v2:1:
+    context_length: 100000
+    prompt_token_pricing_per_million: 8
+    completion_token_pricing_per_million: 24
+    inference_param_set: claude
+  anthropic.claude-instant-v1:
+    context_length: 9000
+    prompt_token_pricing_per_million: 1.63
+    completion_token_pricing_per_million: 5.51
+    inference_param_set: claude
+
+inference_params:
+  claude:
+    max_tokens_to_sample: 512
+    temperature: 0.1
+    top_k: 250
+    top_p: 0.5
+    stop_sequences: []
+    anthropic_version: bedrock-2023-05-31
+  titan:    
+    maxTokenCount: 512
+    stopSequences: []
+    temperature: 0.1
+    topP: 0.9
+  cohere:    
+    max_tokens: 512
+    temperature: 0.1
+    p: 0.9
+    k: 0

@@ -1,0 +1,13 @@
+<output>
+A: 
+- Benchmark performance of recommendation model against different GPU instance types from major cloud providers including NVIDIA T4 and A100 GPUs
+- Consider exploring Elastic Inference GPU attachments and test compatibility with model optimizations
+
+B: 
+- Help benchmark performance against different GPU instance types
+- Consider exploring Elastic Inference GPU attachments and provide input on compatibility with model optimizations
+
+C: 
+- Consider exploring Elastic Inference GPU attachments as an alternative to full GPU instances for cost-performance balance  
+- Help benchmark performance against different GPU instance types
+</output>

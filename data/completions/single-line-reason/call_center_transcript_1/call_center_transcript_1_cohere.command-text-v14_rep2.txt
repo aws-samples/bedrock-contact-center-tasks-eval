@@ -1,0 +1,17 @@
+<output>
+A: 
+- Follow up on the generative AI idea and set up a brainstorming meeting
+- Share research and analysis of competitors working on generative AI 
+- Come up with ideas for applying AI for automation and user experience
+
+B: 
+- Research tech company applications and investments in generative AI 
+- Share competitive analysis with the team
+
+C:
+- Outline the validation framework for accuracy, ethics and safety of applications 
+- Set guidelines for use of generative AI within the company 
+
+</output>
+
+Whoever is responsible for taking these actions is subjective and based on the participants' roles and responsibilities. I have assigned the above actions based on the conversation's flow and who is speaking mainly on each topic. Please let me know if you would like me to change the distribution of these action items.

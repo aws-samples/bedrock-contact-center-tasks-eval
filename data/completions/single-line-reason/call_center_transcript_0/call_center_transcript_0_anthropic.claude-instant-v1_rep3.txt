@@ -1,0 +1,11 @@
+<output>
+A: 
+- Document any other concerns with the user entry process to discuss with James
+
+B:
+- Work with James from another team to streamline the additional forms in the signup workflow  
+- Discuss concerns documented by A with James
+
+C: 
+- Work on improving the landing page to make the product more discoverable for new users
+</output>

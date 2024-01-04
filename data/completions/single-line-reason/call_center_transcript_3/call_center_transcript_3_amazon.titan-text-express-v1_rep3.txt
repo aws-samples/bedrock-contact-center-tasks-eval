@@ -1,0 +1,7 @@
+<output>
+Action item: Draft a proposal for an AI model safety review framework
+Action item: Outline additional potential safety risks to address such as data/algorithm bias and security
+Action item: Explore methodologies for value alignment in AI systems
+Action item: Research existing XAI (explainable AI) techniques to augment our models
+Action item: Develop testing and monitoring standards for AI models based on industry best practices
+</output>

@@ -1,0 +1,41 @@
+Human: Read the conversation between the call participants. Based on the participants of the call discuss, create a list of action items for each speaker in the call transcript.
+I am giving you an example of a conversation and the desired output below. 
+
+<conversation>
+A: Hi folks, I wanted to discuss the timeline for launching the new app update.
+B: Sure A, what aspect did you want to talk through?  
+A: I'm mostly concerned that some of the new features seem to be falling behind schedule based on the updates I'm getting from the teams.
+B: Okay, let me loop in C since she's managing the development roadmap.  
+C: Hey all, thanks for bringing this up. What features are you worried about A?
+A: The new recommendation algorithm integration seems pretty delayed based on what engineering told me. Also the UI refresh.  
+C: You're right, the algorithm work is a bit backed up. As for the UI, I'll follow up - I thought that was on track.
+B: Maybe we should prioritize getting the algorithm piece back on schedule since that's key for our main app update goal.  
+A: Agreed. C, can you work with engineering on that? And B, to your point, I'm happy to help re-prioritize other things if needed.
+C: Sure, I'll sync up with engineering today and get a plan to get us back on track.  
+B: Sounds good, let's plan to regroup next week once you have an update.
+</conversation>
+
+<output>
+Here are the action items I gathered for each person:
+
+A:
+- Help re-prioritize other workstreams if needed to get algorithm integration back on track
+- Regroup next week for an update on new timeline
+
+B: 
+- None explicitly stated
+
+C:
+- Follow up on status of UI refresh
+- Work with engineering team to get recommendation algorithm integration back on schedule 
+- Sync up with engineering today and come up with updated timeline
+- Provide update next week on new timeline
+</output>
+
+Similar to the above example generate a list of action items for each speaker from the conversation provided below. Put the action items between the <output></output> tags. 
+
+<conversation>
+{}
+</conversation>
+
+Assistant:
