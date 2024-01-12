@@ -1,0 +1,12 @@
+Meeting transcript: 
+A: Hi B, I want to discuss the workstream for our new product launch
+B: Sure A, is there anything in particular you want to discuss?
+A: Yes, I want to talk about how users enter into the product.  
+B: Ok, in that case let me add in C.
+C: Hey everyone
+B: Hi C, A wants to discuss how users enter into the product.
+A: its too complicated and we should remove friction.  for example, why do I need to fill out additional forms? I also find it difficult to find where to access the product when I first land on the landing page.  
+B: I would also add that I think there are too many steps.
+C: Ok, I can work on the landing page to make the product more discoverable but B can you work on the additonal forms?
+B: Yes but I would need to work with James from another team as he needs to unblock the sign up workflow. A can you document any other concerns so that I can discuss with James only once?
+A: Sure.

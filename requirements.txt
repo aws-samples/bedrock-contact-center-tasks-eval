@@ -1,0 +1,4 @@
+
+sagemaker==2.177.1
+tokenizers==0.13.3
+rouge-score==0.1.2

@@ -1,0 +1,15 @@
+<output>
+Here are the action items I gathered for each person:
+
+A:
+- Document any other concerns related to user entry into the product so that they can be discussed with James from another team
+- Work with C to make the product more discoverable on the landing page
+
+B:
+- Work with James from another team to unblock the sign up workflow
+- Work with C to make the product more discoverable on the landing page
+
+C:
+- Work on the landing page to make the product more discoverable
+- Work with B to remove friction from the additional forms
+</output>

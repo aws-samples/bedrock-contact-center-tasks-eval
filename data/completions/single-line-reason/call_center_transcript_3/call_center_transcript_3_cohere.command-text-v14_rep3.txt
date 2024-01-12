@@ -1,0 +1,16 @@
+<output>
+A: 
+- Draft a proposal for an AI model safety review framework 
+- Explore methodologies for value alignment in AI systems 
+
+B: 
+- None
+
+C:
+- Outline additional safety risks 
+- Discuss how to carefully test models before launch and monitor their impacts over time 
+- Implement testing and monitoring standards for AI based on industry best practices 
+
+</output>
+
+Do these action items seem suitable for the speakers?

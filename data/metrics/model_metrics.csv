@@ -1,0 +1,4 @@
+model_id,experiment,time_taken_in_seconds_q95,completion_token_count_q95,prompt_token_count_q95,completion_word_count_q95,cost_q95,cosine_similarity_mean,rouge_l_f1_score_mean,count,cosine_similarity_within_responses_mean,rouge_l_f1_score_within_responses_mean,percent_of_completions_gt_wc
+amazon.titan-text-express-v1,single-line-reason,7,214,976,149,0.0011,0.9639013836405408,0.81418,15,0.9639013836405408,0.81418,53.33
+anthropic.claude-instant-v1,single-line-reason,3,122,950,89,0.0022,0.9986567400905644,0.9772533333333333,15,0.9986567400905644,0.9772533333333333,20.0
+cohere.command-text-v14,single-line-reason,9,239,963,179,0.0018,0.9492458564111915,0.4808666666666667,15,0.9492458564111915,0.4808666666666667,86.67

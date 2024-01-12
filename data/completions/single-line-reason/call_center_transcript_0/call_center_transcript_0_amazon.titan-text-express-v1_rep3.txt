@@ -1,0 +1,13 @@
+<output>
+Here are the action items I gathered for each person:
+
+A:
+- Document any other concerns about the product launch workstream so that B can discuss with James only once
+
+B:
+- Work with James from another team to unblock the sign up workflow
+- Work on the landing page to make the product more discoverable
+
+C:
+- Work on the landing page to make the product more discoverable
+</output>

@@ -1,0 +1,1 @@
+<output> Here are the action items I gathered for each person: A: - Document any other user entry concerns to provide to B B: - Work with James from another team to simplify additional forms and sign up workflow C:  - Work on landing page to make product more discoverable </output>

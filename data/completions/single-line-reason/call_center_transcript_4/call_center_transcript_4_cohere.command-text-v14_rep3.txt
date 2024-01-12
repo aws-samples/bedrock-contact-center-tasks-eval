@@ -1,0 +1,16 @@
+Here are the action items for each speaker:
+
+A:
+- Lead a discussion on the requirements of the product recommendation model
+- Evaluate the optimal cloud instance type that can handle thousands of customers 
+- Assess the pros and cons of standard instance types without GPUs and their ability to handle computation and concurrency needs
+
+B:
+- Provide expertise on the performance boost of GPU acceleration and the potential for model optimizations 
+- Help assess the impact of prediction latency on the user experience 
+
+C:
+- Offer insights on cost-effective options such as Elastic Inference GPU attachments 
+- Lead the exploration of different GPU instance types and their compatibility with model optimizations 
+
+Would you like me to create a more comprehensive list of action items based on this conversation?

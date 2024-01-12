@@ -1,0 +1,20 @@
+Here are some action items for each speaker:
+
+A:
+- Lead a discussion on the requirements of the product recommendation model
+- Assess the potential of different cloud instance types to host the model (including standard vs GPU-powered instances)
+- Take into account the cost-effectiveness and performance of each option 
+- Suggest possible options for benchmarking, based on the requirements and needs of the model
+
+B:
+- Provide technical expertise on the potential pros and cons of different cloud instance options
+- Offer insights on how different instance types could optimize or hinder model performance 
+- Collaborate on assessing the business implications of model performance versus cost implications
+
+C:
+- Highlight the potential drawbacks of different options (such as the increased latency of standard instances without GPU acceleration) 
+- Offer to contribute to any benchmarking tests proposed by A 
+- Lead any subsequent discussions on possible ways to optimize different options
+
+
+Would you like me to elaborate on any of these action items?

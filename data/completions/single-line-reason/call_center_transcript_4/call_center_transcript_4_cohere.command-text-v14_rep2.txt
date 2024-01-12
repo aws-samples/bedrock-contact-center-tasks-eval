@@ -1,0 +1,20 @@
+Here are some action items for each speaker:
+
+A:
+- Lead a discussion on the requirements of the product recommendation model
+- Assess the potential of different cloud instance types to host the model (including standard vs GPU-powered instances)
+- Take into account the cost-effectiveness and performance of each option 
+- Suggest possible options for benchmarking (e.g. NVIDIA T4 GPUs or Elastic Inference GPU attachments)
+
+B: 
+- Provide technical analysis and comparison of different cloud instance types
+- Assess the potential performance gains of GPU-powered instances vs standard instances 
+- Consider the potential of different optimization techniques with different GPU types 
+- Confirm the compatibility of different GPU types with the current optimizations in the model 
+
+C:
+- Highlight the potential for latency improvements with GPU instances and how this could drive business value
+- Support the exploration of cost-effective options, including Elastic Inference GPU attachments
+- Collaborate with A and B on how to best balance throughput versus cost going forward 
+
+Please note these action items are based on the conversation transcript provided. It's possible that further details or context could alter some of the action items. Do you have any further information you'd like to add?

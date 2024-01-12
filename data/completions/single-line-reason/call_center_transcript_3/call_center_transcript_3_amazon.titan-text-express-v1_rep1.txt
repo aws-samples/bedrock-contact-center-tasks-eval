@@ -1,0 +1,17 @@
+<output>
+Here are the action items I gathered for each person:
+
+A:
+- Draft a proposal for an AI model safety review framework
+- Explore methodologies for value alignment in AI systems
+
+B:
+- Outline additional potential safety risks to address such as data/algorithm bias and security
+- Research existing XAI (explainable AI) techniques to augment our models
+- Develop testing and monitoring standards for AI models based on industry best practices
+
+C:
+- Add explainability to AI models
+- Discuss how to carefully test models before launch to catch additional issues
+- Have a plan to monitor their impacts over time
+</output>

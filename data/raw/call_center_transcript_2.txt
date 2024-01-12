@@ -1,0 +1,17 @@
+A: I wanted to discuss ideas for a new startup in the mobile gaming space. The success of companies like Angry Birds shows there is a lot of potential still untapped. 
+Action item: Research recent trends and growth in mobile gaming to identify opportunities
+
+B: I agree mobile gaming is hot right now. Have you thought about potential types of games we could develop? Should we try freemium or paid apps?
+Action item: Outline pros and cons for freemium vs paid monetization models
+
+C: We should consider other business models too like in-game ads or sponsorships. The key is retaining users and driving high engagement.
+Action item: Explore in-game ad networks and pricing
+Action item: Brainstorm ideas to maximize user retention 
+
+A: Those are good points. I also think we need to prototype game concepts quickly to validate demand before investing too heavily in development.
+Action item: Define process for rapidly prototyping and testing game concepts  
+
+B: Yes, we could even use some AI tools now to auto-generate simple game artwork and mechanics. This can help speed up testing. 
+Action item: Evaluate AI-powered game prototyping tools to complement our development efforts
+
+C: Automating pieces through AI makes sense. Though we still need to ensure quality bar for any games we officially launch.

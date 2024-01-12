@@ -1,0 +1,17 @@
+A: I wanted to further discuss options for the optimal cloud instance type to host our new product recommendation model. As a refresher on the requirements - this model will be query intensive, with thousands of customers hitting the prediction API simultaneously. And it relies on a large deep neural network for the recommendations. 
+
+B: Yes, we should go through the pros and cons again of the main instance family options available. For standard instance types without GPUs, we'd likely need to go with a high CPU and memory specification to handle the computation and concurrency needs.
+
+C: Standard instances would be more cost-effective, but prediction latency would suffer without GPU acceleration. The neural network calculations could be 5-10x slower based on our initial benchmarks. For a customer-facing model, slow predictions could lead to poor user experience.
+
+A: That's a very good point. While GPU-powered instances would be more expensive, the business value of sub-second prediction latency for users is high. We want customers to get engaging, personalized recommendations immediately to drive conversions.
+
+B: I agree, I think GPU acceleration makes more sense despite the increased cloud costs. In addition to the deep learning performance boost, some of the other model parallelization and tuning optimizations we're doing would also run faster on GPUs.
+
+C: It seems like GPU instances are the way to go then as long as the total monthly cost is affordable. However, we may be able to optimize the specific type of GPU instance to find the best balance of throughput versus cost. 
+
+A: Definitely, the major cloud providers offer an array of GPU instance types optimized for different use cases. We should benchmark performance against our workload with NVIDIA T4 GPUs, which are cost-optimized options, as well as some higher-end options like A100 GPUs.
+
+C: Do you think we should also explore using something like Elastic Inference GPU attachments? Those let you augment existing instances with fractional GPU access that is more cost-effective.
+
+B: Hmm good question. In theory that could work well for the cost-performance balance. We'd need to test compatibility with the types of GPU optimizations we're running in the model though...
