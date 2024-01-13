@@ -3,9 +3,9 @@
 app_name: contact-center-transcript-summarization
 
 aws:
-  region: us-east-1
+  region: <your-aws-account-region>
   # only needed if the code in this repo is not running on AWS compute (for example on your laptop)
-  sagemaker_execution_role: Admin
+  sagemaker_execution_role: <your-sagemaker-execution-role>
 
 # directory paths
 dir:
@@ -41,20 +41,17 @@ experiments:
   model_list:
   - model: amazon.titan-text-express-v1
     prompt_template: titan_template.txt
-    concurrency_levels: 
-    - 1
-    - 2
+    concurrency_metric: 
+    - 5
   - model: anthropic.claude-instant-v1
     prompt_template: anthropic_template_single_line_reason.txt
-    concurrency_levels: 
-    - 1
-    - 2
+    concurrency_metric: 
+    - 5
   
   - model: cohere.command-text-v14
     prompt_template: cohere_template.txt
-    concurrency_levels: 
-    - 1
-    - 2
+    concurrency_metric: ## set this to just concurrency for testing purposes (always one element in the array)
+    - 5
 
 
 bedrock_models:
